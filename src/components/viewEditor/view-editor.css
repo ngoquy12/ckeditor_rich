@@ -1,0 +1,61 @@
+.editor-container_classic-editor .editor-container__editor {
+  width: 100%;
+}
+
+.ck-content {
+  min-height: 200px;
+}
+
+.ck-content ul li {
+  line-height: 24px;
+}
+
+.ck-content blockquote {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.ck-content .image img {
+  border: 1px solid #dadada;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.ck table tr {
+  border: 1px solid #dadada;
+}
+
+.ck table tr td {
+  height: 40px;
+  padding: 0 16px !important;
+}
+
+.ck table tr:first-child {
+  height: 44px;
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+.ck-powered-by-balloon {
+  display: none !important;
+}
+
+.ck.ck-editor__editable pre[data-language]::after {
+  display: none;
+}
+
+pre {
+  position: relative;
+}
+
+.editor-container pre code[class]::after {
+  content: attr(class);
+  text-transform: uppercase;
+  background: #757575;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
